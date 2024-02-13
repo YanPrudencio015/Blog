@@ -46,7 +46,6 @@ function App() {
             <Route path='/contact' element={<Contact/>}/>
           
             <Route path='/search' element={<Search/>}/>
-
           </Routes>
             <MenuMobile/> 
         </Provider>

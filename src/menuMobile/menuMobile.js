@@ -17,7 +17,14 @@ function MenuMobile(props){
         <div className="menuMobile">
             <div className="menuMobileContainer">
                 <div className="menuMobileUserOptions">
-                   <Link to={"/login"} onClick={()=>{dispatch({type:"CLOSE"})}}><i className="mobileUserIcon fa-solid fa-user"></i> </Link> 
+                   <Link to={"/login"} onClick={()=>{dispatch({type:"CLOSE"})}}>
+                    <i className="mobileUserIcon fa-solid fa-user"></i>
+                    </Link> 
+                    
+                    
+                    <Link to={"/search"} onClick={()=>dispatch({type:"CLOSE"})}>
+                        <button className="searchIcon">Search</button>
+                    </Link>
                 </div>
                 <div className="menuMobileOptions">
                    <Link to={"/"} onClick={()=>{dispatch({type:"CLOSE"})}}><p>home</p></Link> 

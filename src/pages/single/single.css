@@ -14,3 +14,11 @@ font-family: 'Varela Round', sans-serif;
     display: flex;
 }
 
+
+@media screen and (max-width: 600px){
+    .single{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

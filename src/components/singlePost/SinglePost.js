@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import './singlepost.css'
 
 function SinglePost(props){
