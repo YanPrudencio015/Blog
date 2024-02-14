@@ -12,7 +12,7 @@ function Register(props){
             <label>E-mail</label>
             <input type='text' className='registerInput' placeholder='Enter your E-mail'></input>
             <label>Password</label>
-            <input type='text' className='registerInput' placeholder='Enter your Password'></input>
+            <input type='password' className='registerInput' placeholder='Enter your Password'></input>
             <button className='registerButton'>Register</button>
         </form>    
         <button className='registerLoginButton'>
