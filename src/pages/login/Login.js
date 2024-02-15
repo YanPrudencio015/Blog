@@ -2,6 +2,8 @@ import React from 'react'
 import './login.css'
 import {Link} from 'react-router-dom'
 
+import img from '../../images/registerbackground.jpg'
+
 function Login(props){
     return(
         <div className='login'>

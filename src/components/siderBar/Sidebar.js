@@ -1,11 +1,13 @@
 import React from 'react'
 import './sidebar.css'
+
+import image from '../../images/reading.jpg'
 export default function Sidebar() {
   return (
     <div className='sidebar'>
       <div className='sidebarItem'>
         <span className='sidebarTitle'>ABOUT ME</span>
-        <img src='https://miro.medium.com/v2/resize:fit:720/format:webp/0*r4rJGFatrshjYgAo'></img>
+        <img src={image}></img>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 

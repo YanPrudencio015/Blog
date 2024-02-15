@@ -1,11 +1,12 @@
 import React from 'react'
 
+import image from '../../images/writeBackground.jpg'
 import './write.css'
 
 export default function Write(props) {
   return (
     <div className='write'>
-      <img src='https://miro.medium.com/v2/resize:fit:720/format:webp/1*A7jWykAKQTY1QH6AMJK_HA.jpeg' 
+      <img src={image}
       className='writeImg'>
       </img>
       <form className='writeForm'>
